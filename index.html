@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>telemed</title>
+
+    <style>
+        body{
+            margin: 0;
+            font: 14px/20px Arial, Helvetica, sans-serif;
+            color: #000;
+        }
+
+        .bannerInstall-container{
+            padding: 20px 20px 20px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 14px;
+            width: auto;
+            border: 1px solid #d9d9d9;
+            background-color: rgba(216, 216, 216, 0.52);
+        }
+
+        .bannerInstall-button{
+            padding: 0;
+            display: inline-block;
+            outline: none;
+            background-color: transparent;
+            text-align: center;
+            vertical-align: middle;
+            border: none;
+            text-decoration: none;
+        }
+
+        .btn-Install,
+        .btn-run{
+            margin-left: 14px;
+            padding: 11px 18px;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.18);
+            background-color: #fff;
+            font-weight: 600;
+            font-size:  12px;
+            color: #000;
+            line-height: 1;
+        }
+
+       
+
+        .bannerInstall-title{
+            margin: 0;
+            font-weight: 600;
+            font-size: 14px;
+            color: #000;
+        }
+
+       
+    </style>
+
+
+</head>
+<body>
+    
+
+
+
+    <div class="bannerInstall-container">
+
+
+            <button class="bannerInstall-button btn-close">
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.59839 8.89759C7.95715 9.25635 8.53883 9.25635 8.89759 8.89759C9.25635 8.53882 9.25635 7.95715 8.89759 7.59839L6.2992 5.00001L8.89759 2.40163C9.25635 2.04287 9.25635 1.4612 8.89759 1.10244C8.53883 0.743674 7.95715 0.743674 7.59839 1.10244L5.00001 3.70082L2.4016 1.10242C2.04284 0.743653 1.46117 0.743653 1.1024 1.10242C0.743638 1.46118 0.743638 2.04285 1.1024 2.40161L3.70081 5.00001L1.1024 7.59841C0.743637 7.95717 0.743637 8.53884 1.1024 8.89761C1.46116 9.25637 2.04284 9.25637 2.4016 8.89761L5.00001 6.29921L7.59839 8.89759Z" fill="#979797" />
+                </svg>
+            </button>
+
+            <img src="./heart.svg" alt="" class="bannerInstall-image">
+      
+
+        <h3 class="bannerInstall-title">
+            Приложение <br/>"Телемедицина"
+        </h3>
+
+        <a  class="bannerInstall-button btn-Install">
+            Установить
+        </a>
+
+        <!-- <a href="#" class="bannerInstall-button btn-run">
+            Запустить
+        </a> -->
+    </div>
+
+
+
+
+
+
+
+    <script>
+        document.querySelector('.btn-Install').addEventListener('click', (evt) => {
+            console.log(11)
+        })
+    </script>
+
+
+
+</body>
+</html>         
